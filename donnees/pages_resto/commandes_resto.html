@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Commande </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="../css/bootstrap.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/resto_css_2.css">
+        <link rel="stylesheet" href="../css/resto_slide_css.css">
+        <link rel="stylesheet" href="../css/resto_css_commande.css">
+        <link rel="stylesheet" href="../css/resto_etoile_css.css">
+
+        <link rel="stylesheet" href="../swiper/css/swiper.min.css">
+        <script src="../swiper/js/swiper.min.js"></script>  
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <!-- HEADER Titre de la page -->
+        <!-- Navigation -->
+        <div class="fixed-top" style="margin-bottom: 100px;">
+            <header class="topbar" style="background-color: gray;">
+                <div class="container">
+                    <div class="row">
+                        <!-- social icon-->
+                        <div class="col-sm-12">
+                            <ul class="social-network">
+                                <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="../../index.html" style="width: 20%;margin: 0;padding: 0;color: lime;"> Resto @ <img style="width:130px; height: 50px ; padding:0;" src="../images/logo.png" alt="Logo"/></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+
+                        <ul class="navbar-nav ml-auto">
+
+                            <li class="nav-item ">
+                                <a class="nav-link" href="../../index.html">Accueil
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Commander</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Services
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Livraison</a>
+                                    <a class="dropdown-item" href="#">Plat special</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Se Connecter</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">S'abonner</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contacter">Contact</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FAQ</a>
+                            </li>
+                            <form class="form-inline my-1 my-lg-0" style="margin-left: 30px;">
+                                <input class="form-control mr-sm-1" type="search" placeholder="Rechercher" aria-label="Search" style="width: 40%;">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+                            </form>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+
+        <!-- ZONE PRINCIPALE -->
+        <div class="container" style="margin-top:100px; padding-bottom: 2%;">
+            <p> 
+            <marquee> Passer votre commande </marquee>
+        </p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Menu : <b>Plats</b></h2>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators" style="background-color: gray;">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>   
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="../images/plat_1_13.png" alt="Plat delicieux" class="img-responsive img-fluid">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Patte</h4>
+                                                <p class="item-price"><strike>700 Fcfa</strike> <span>650 Fcfa</span></p>
+                                                <div class="container">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5" name="rate" value="5" />
+                                                        <label for="star5" title="text">5 stars</label>
+                                                        <input type="radio" id="star4" name="rate" value="4" />
+                                                        <label for="star4" title="text">4 stars</label>
+                                                        <input type="radio" id="star3" name="rate" value="3" />
+                                                        <label for="star3" title="text">3 stars</label>
+                                                        <input type="radio" id="star2" name="rate" value="2" />
+                                                        <label for="star2" title="text">2 stars</label>
+                                                        <input type="radio" id="star1" name="rate" value="1" />
+                                                        <label for="star1" title="text">1 star</label>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Commander</a>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="../images/pla_1_1.png" alt="Plat delicieux" class="img-responsive img-fluid"  >
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Riz Gras Europeen</h4>
+                                                <p class="item-price"><strike> </strike> <span>800 Fcfa</span></p>
+                                                <div class="container">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star55" name="rate5" value="5" />
+                                                        <label for="star55" title="text">5 stars</label>
+                                                        <input type="radio" id="star44" name="rate4" value="4" />
+                                                        <label for="star44" title="text">4 stars</label>
+                                                        <input type="radio" id="star33" name="rate3" value="3" />
+                                                        <label for="star33" title="text">3 stars</label>
+                                                        <input type="radio" id="star22" name="rate2" value="2" />
+                                                        <label for="star22" title="text">2 stars</label>
+                                                        <input type="radio" id="star11" name="rate1" value="1" />
+                                                        <label for="star11" title="text">1 star</label>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Commander</a>
+                                            </div>						
+                                        </div>
+                                    </div>		
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="../images/plat_chinois.png" alt="Plat delicieux" class="img-responsive img-fluid" >
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Viande au Frite</h4>
+                                                <p class="item-price"><strike>1100 Fcfa</strike> <span>1000 FcfaS</span></p>
+                                                <div class="container">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star555" name="rate555" value="5" />
+                                                        <label for="star555" title="text">5 stars</label>
+                                                        <input type="radio" id="star444" name="rate444" value="4" />
+                                                        <label for="star444" title="text">4 stars</label>
+                                                        <input type="radio" id="star333" name="rate333" value="3" />
+                                                        <label for="star333" title="text">3 stars</label>
+                                                        <input type="radio" id="star222" name="rate222" value="2" />
+                                                        <label for="star222" title="text">2 stars</label>
+                                                        <input type="radio" id="star111" name="rate111" value="1" />
+                                                        <label for="star111" title="text">1 star</label>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Commander</a>
+                                            </div>						
+                                        </div>
+                                    </div>								
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="../images/plat_russe.png" alt="Plat delicieux" class="img-responsive img-fluid">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Crudité</h4>
+                                                <p class="item-price"><strike>800 Fcfa</strike> <span>750 Fcfa</span></p>
+                                                <div class="container">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5555" name="rate5555" value="5" />
+                                                        <label for="star5555" title="text">5 stars</label>
+                                                        <input type="radio" id="star4444" name="rate4444" value="4" />
+                                                        <label for="star4444" title="text">4 stars</label>
+                                                        <input type="radio" id="star3333" name="rate3333" value="3" />
+                                                        <label for="star3333" title="text">3 stars</label>
+                                                        <input type="radio" id="star2222" name="rate2222" value="2" />
+                                                        <label for="star2222" title="text">2 stars</label>
+                                                        <input type="radio" id="star1111" name="rate1111" value="1" />
+                                                        <label for="star1111" title="text">1 star</label>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Commander</a>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="../images/salade_burkinabe.png" alt="Plat delicieux" class="img-responsive img-fluid">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Salade</h4>
+                                                <p class="item-price"><strike> 800 Fcfa </strike> <span>700 Fcfa</span></p>
+                                                <div class="container">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5_1" name="rate5_1" value="5" />
+                                                        <label for="star5_1" title="text">5 stars</label>
+                                                        <input type="radio" id="star4_1" name="rate4_1" value="4" />
+                                                        <label for="star4_1" title="text">4 stars</label>
+                                                        <input type="radio" id="star3_1" name="rate3_1" value="3" />
+                                                        <label for="star3_1" title="text">3 stars</label>
+                                                        <input type="radio" id="star2_1" name="rate2_1" value="2" />
+                                                        <label for="star2_1" title="text">2 stars</label>
+                                                        <input type="radio" id="star1_1" name="rate1_1" value="1" />
+                                                        <label for="star1_1" title="text">1 star</label>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Commander</a>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="../images/burger_omelette.png" alt="Plat delicieux" class="img-responsive img-fluid">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Burger aux Omelettes</h4>
+                                                <p class="item-price"><strike>1000 Fcfa</strike> <span>900 Fcfa</span></p>
+                                                <div class="container">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5_11" name="rate5_11" value="5" />
+                                                        <label for="star5_11" title="text">5 stars</label>
+                                                        <input type="radio" id="star4_11" name="rate4_11" value="4" />
+                                                        <label for="star4_11" title="text">4 stars</label>
+                                                        <input type="radio" id="star3_11" name="rate3_11" value="3" />
+                                                        <label for="star3_11" title="text">3 stars</label>
+                                                        <input type="radio" id="star2_11" name="rate2_11" value="2" />
+                                                        <label for="star2_11" title="text">2 stars</label>
+                                                        <input type="radio" id="star1_11" name="rate1_11" value="1" />
+                                                        <label for="star1_11" title="text">1 star</label>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Commander</a>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="../images/omelette_algerien.jpg" alt="Plat delicieux" class="img-responsive img-fluid">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Omelette</h4>
+                                                <p class="item-price"><strike>750 Fcfa</strike> <span>700 Fcfa</span></p>
+                                                <div class="container">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5_111" name="rate5_111" value="5" />
+                                                        <label for="star5_111" title="text">5 stars</label>
+                                                        <input type="radio" id="star4_111" name="rate4_111" value="4" />
+                                                        <label for="star4_111" title="text">4 stars</label>
+                                                        <input type="radio" id="star3_111" name="rate3_111" value="3" />
+                                                        <label for="star3_111" title="text">3 stars</label>
+                                                        <input type="radio" id="star2_111" name="rate2_111" value="2" />
+                                                        <label for="star2_111" title="text">2 stars</label>
+                                                        <input type="radio" id="star1_111" name="rate1_111" value="1" />
+                                                        <label for="star1_111" title="text">1 star</label>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Commander</a>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="../images/plat_1_14.png" alt="Plat delicieux" class="img-responsive img-fluid">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Viande Grillée</h4>
+                                                <p class="item-price"><strike>  </strike> <span>1500 Fcfa</span></p>
+                                                <div class="container">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5_1111" name="rate51111" value="5" />
+                                                        <label for="star51111" title="text">5 stars</label>
+                                                        <input type="radio" id="star41111" name="rate41111" value="4" />
+                                                        <label for="star41111" title="text">4 stars</label>
+                                                        <input type="radio" id="star31111" name="rate31111" value="3" />
+                                                        <label for="star31111" title="text">3 stars</label>
+                                                        <input type="radio" id="star21111" name="rate21111" value="2" />
+                                                        <label for="star21111" title="text">2 stars</label>
+                                                        <input type="radio" id="star11111" name="rate11111" value="1" />
+                                                        <label for="star11111" title="text">1 star</label>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Commander</a>
+                                            </div>						
+                                        </div>
+                                    </div>						
+                                </div>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="../images/plat_1_12.png" alt="Plat delicieux" class="img-responsive img-fluid">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Viande au Cruidité</h4>
+                                                <p class="item-price"><strike>2500 Fcfa</strike> <span>2250 Fcfa</span></p>
+                                                <div class="container">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5_1_1" name="rate5_1_1" value="5" />
+                                                        <label for="star5_1_1" title="text">5 stars</label>
+                                                        <input type="radio" id="star4_1_1" name="rate4_1_1" value="4" />
+                                                        <label for="star4_1_1" title="text">4 stars</label>
+                                                        <input type="radio" id="star3_1_1" name="rate3_1_1" value="3" />
+                                                        <label for="star3_1_1" title="text">3 stars</label>
+                                                        <input type="radio" id="star2_1_1" name="rate2_1_1" value="2" />
+                                                        <label for="star2_1_1" title="text">2 stars</label>
+                                                        <input type="radio" id="star1_1_1" name="rate1_1_1" value="1" />
+                                                        <label for="star1_1_1" title="text">1 star</label>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Commander</a>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="../images/plat_2.jpg" alt="Plat delicieux" class="img-responsive img-fluid">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Poulet Sauté</h4>
+                                                <p class="item-price"><strike> </strike> <span>3500 Fcfa</span></p>
+                                                <div class="container">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5_1_11" name="rate5_1_11" value="5" />
+                                                        <label for="star5_1_11" title="text">5 stars</label>
+                                                        <input type="radio" id="star4_1_11" name="rate4_1_11" value="4" />
+                                                        <label for="star4_1_11" title="text">4 stars</label>
+                                                        <input type="radio" id="star3_1_11" name="rate3_1_11" value="3" />
+                                                        <label for="star3_1_11" title="text">3 stars</label>
+                                                        <input type="radio" id="star2_1_11" name="rate2_1_11" value="2" />
+                                                        <label for="star2_1_11" title="text">2 stars</label>
+                                                        <input type="radio" id="star1_1_11" name="rate1_1_11" value="1" />
+                                                        <label for="star1_1_11" title="text">1 star</label>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Commander</a>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="../images/plat_11.jpg" alt="Plat delicieux" class="img-responsive img-fluid">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Omelette</h4>
+                                                <p class="item-price"><strike>700 Fcfa</strike> <span>600 Fcfa</span></p>
+                                                <div class="container">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5_1_111" name="rate5_1_111" value="5" />
+                                                        <label for="star5_1_111" title="text">5 stars</label>
+                                                        <input type="radio" id="star4_1_111" name="rate4_1_111" value="4" />
+                                                        <label for="star4_1_111" title="text">4 stars</label>
+                                                        <input type="radio" id="star3_1_111" name="rate3_1_111" value="3" />
+                                                        <label for="star3_1_111" title="text">3 stars</label>
+                                                        <input type="radio" id="star2_1_111" name="rate2_1_111" value="2" />
+                                                        <label for="star2_1_111" title="text">2 stars</label>
+                                                        <input type="radio" id="star1_1_111" name="rate1_1_111" value="1" />
+                                                        <label for="star1_1_111" title="text">1 star</label>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Commander</a>
+                                            </div>						
+                                        </div>
+                                    </div>	
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="../images/plat_22.jpg" alt="Plat delicieux" class="img-responsive img-fluid">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Soupe</h4>
+                                                <p class="item-price"><strike>900 Fcfa</strike> <span>800 Fcfa</span></p>
+                                                <div class="container">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5_1_1111" name="rate5_1_1111" value="5" />
+                                                        <label for="star5_1_1111" title="text">5 stars</label>
+                                                        <input type="radio" id="star4_1_1111" name="rate4_1_1111" value="4" />
+                                                        <label for="star4_1_1111" title="text">4 stars</label>
+                                                        <input type="radio" id="star3_1_1111" name="rate3_1_1111" value="3" />
+                                                        <label for="star3_1_1111" title="text">3 stars</label>
+                                                        <input type="radio" id="star2_1_1111" name="rate2_1_1111" value="2" />
+                                                        <label for="star2_1_1111" title="text">2 stars</label>
+                                                        <input type="radio" id="star1_1_111" name="rate1_1_1111" value="1" />
+                                                        <label for="star1_1_1111" title="text">1 star</label>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Commander</a>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin ZONE PRINCIPALE -->
+
+    <!-- PIED DE PAGE -->
+
+    <div class="jumbotron text-center" style="margin-bottom:0; padding: 2%;background-color: gainsboro;">
+
+        <div class="card" style="margin-bottom: 2%;background-color: whitesmoke;">
+
+            <!-- Nous contacter -->
+            <div class="row" id="contacter">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="well well-sm">
+                        <form class="form-horizontal"  >
+                            <fieldset>
+                                <legend class="text-center">Nous contacter</legend>
+
+                                <!-- Name input-->
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="name">Nom</label>
+                                    <div class="col-md-9">
+                                        <input id="name" name="name" type="text" placeholder="Votre Nom" class="form-control">
+                                    </div>
+                                </div>
+
+                                <!-- Email input-->
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="email">E-mail</label>
+                                    <div class="col-md-9">
+                                        <input id="email" name="email" type="text" placeholder="Votre mail" class="form-control">
+                                    </div>
+                                </div>
+
+                                <!-- Message body -->
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="message">Message</label>
+                                    <div class="col-md-9">
+                                        <textarea class="form-control" id="message" name="message" placeholder="Entrez votre message ici" rows="3"></textarea>
+                                    </div>
+                                </div>
+
+                                <!-- Form actions -->
+                                <div class="form-group">
+                                    <div class="col-md-8 text-right">
+                                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Envoyer</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin Nous contacter -->
+
+        </div>
+
+
+        &copy; <em > UNICOM </em> 2019 !
+    </div>
+    <!-- Fin PIED DE PAGE -->
+
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 60,
+            centeredSlides: true,
+            autoplay: {
+                delay: 4500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+
+
+</body>
+</html>
